@@ -1,0 +1,24 @@
+<table   class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>EmailId</th>
+            <th>Address</th>
+            <th>Mobilenumber</th>
+            <th>Course</th>
+            <th>Updates</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let details of data
+         ">
+            <td>{{details.name}}</td>
+            <td>{{details.email}}</td>
+            <td>{{details.address}}</td>
+            <td>{{details.mobileNumber}}</td>
+            <td>{{details.course}}</td>
+            <td>{{details.updates}}</td>
+        </tr>
+        
+    </tbody>
+</table>
